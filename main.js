@@ -1,8 +1,8 @@
 //variable
-const input = document.querySelector("#numIpt");
-const btn = document.querySelector("button");
-const span = document.querySelector(".number");
-const errInput = document.querySelector(".error");
+let input = document.querySelector("#numIpt");
+let btn = document.querySelector("button");
+let span = document.querySelector(".number");
+let errInput = document.querySelector(".error");
 
 
 //onclick
