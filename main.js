@@ -1,5 +1,5 @@
 //variable
-let input = document.querySelector("#numIpt");
+let numinput = document.querySelector("#numIpt");
 let btn = document.querySelector("button");
 let span = document.querySelector(".number");
 let errInput = document.querySelector(".error");
@@ -7,7 +7,7 @@ let errInput = document.querySelector(".error");
 
 //onclick
 function btnClick() {
-  let num = input.value;
+  let num = numinput.value;
   let cul = Math.ceil(num * 0.025);
   if(String(num).charAt(0) == 0 || num <= 0 || num == "")
   {
